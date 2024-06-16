@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: repeating-linear-gradient(
+      45deg,
+      red,
+      red 10px,
+      yellow 10px,
+      yellow 20px
+  );
+}
+
+#score {
+  color: blue; /* Changed to blue */
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+canvas {
+  border: 1px solid #fff;
+}
